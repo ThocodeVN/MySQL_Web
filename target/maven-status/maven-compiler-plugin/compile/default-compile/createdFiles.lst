@@ -1,0 +1,4 @@
+murach\data\SqlGatewayServlet.class
+com\mycompany\bt6_mysql\JakartaRestConfiguration.class
+com\mycompany\bt6_mysql\resources\JakartaEE10Resource.class
+murach\data\SQLUtil.class
