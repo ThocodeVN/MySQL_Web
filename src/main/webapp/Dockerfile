@@ -5,7 +5,7 @@ FROM tomcat:10.0-jdk17
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
 # Sao chép file .war vào thư mục webapps
-COPY target/BT6_MySQL-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/BT6_MySQL
+COPY target/BT6_MySQL-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/BT6_MySQL.war
 
 # Expose port
 EXPOSE 8080
